@@ -75,6 +75,8 @@ INSERT INTO books (title, author_id, category_id, description, price, stock) VAL
 'The Hobbit', 1, 1, 'Interesting book', 10.50, 2
 );
 
+INSERT INTO users (username, password, email, address) VALUES ('Lana', '123', 'lana@mail.com', 'Texas');
+
 
 
 
