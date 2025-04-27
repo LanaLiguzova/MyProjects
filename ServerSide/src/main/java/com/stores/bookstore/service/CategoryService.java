@@ -5,6 +5,7 @@ import com.stores.bookstore.repository.CategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CategoryService {
@@ -20,8 +21,8 @@ public class CategoryService {
     }
 
     //---Check it!!!!
-    public Category getCategory(int id) {
-        return categoryRepository.getReferenceById(id);
+    public Optional<Category> getCategory(int id) {
+        return categoryRepository.findById(id);
     }
 
     public Category saveCategory(Category category) {
