@@ -1,0 +1,10 @@
+3 - The Fellowship of the Ring, by model.Author@54eb2b70, $21.00, stock 4 pc. 
+2 - The Lord of the Rings, by model.Author@31add175, $20.00, stock 2 pc. 
+1 - The Hobbit, by model.Author@ae3540e, $10.50, stock 0 pc. 
+4 - Life on the Missisippi, by model.Author@600b9d27, $15.00, stock 5 pc. 
+5 - The innocents Abroad, by model.Author@3688eb5b, $11.00, stock 3 pc. 
+6 - The Adventures of Tom Sawyer, by model.Author@69f1a286, $10.00, stock 4 pc. 
+7 - Roughing It, by model.Author@7922d892, $11.00, stock 5 pc. 
+8 - The Mysterious Stranger, by model.Author@457c9034, $12.00, stock 7 pc. 
+
+Total positions: 8

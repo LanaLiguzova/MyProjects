@@ -30,4 +30,10 @@ public class BookController {
     public Book saveBook(@RequestBody Book book) {
         return bookService.saveBook(book);
     }
+
+    @PostMapping("/list")
+    public void saveAllBooks(@RequestBody List<Book> bookList) {
+        bookService.saveAll(bookList);
+    }
+
 }

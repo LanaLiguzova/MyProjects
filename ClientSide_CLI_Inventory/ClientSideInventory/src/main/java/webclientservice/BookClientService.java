@@ -7,6 +7,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.util.List;
+
 public class BookClientService {
     private final WebClient webClient;
     private final static String BASE_URL = "http://localhost:8080";
@@ -32,6 +34,18 @@ public class BookClientService {
                 .retrieve()
                 .bodyToMono(Book.class);
     }
+
+    public Mono<Void> saveAllBooks(List<Book> bookList) {
+        return webClient.post()
+                .uri("/api/books/list")
+                .bodyValue(bookList)
+                .retrieve()
+                //.toBodilessEntity();
+                .bodyToMono(Void.class);
+
+    }
+
+
 
 
 

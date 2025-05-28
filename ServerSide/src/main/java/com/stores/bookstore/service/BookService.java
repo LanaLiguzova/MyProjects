@@ -31,4 +31,8 @@ public class BookService {
     public void deleteBook(int id) {
         bookRepository.deleteById(id);
     }
+
+    public void saveAll(List<Book> listBooks) {
+        bookRepository.saveAll(listBooks);
+    }
 }
